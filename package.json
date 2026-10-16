@@ -4,7 +4,7 @@
   "description": ":fire: Front React end application",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --mode=development",
+    "dev": "node init && webpack-dev-server --mode=development",
     "prod": "webpack --mode=production",
     "eslint": "eslint ./src/*.js ./src/**/**/**/*.js ./src/**/**/**/**/*.js",
     "eslint:fix": "eslint --fix ./src/*.js ./src/**/**/**/*.js ./src/**/**/**/**/*.js",
